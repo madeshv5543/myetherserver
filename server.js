@@ -5,7 +5,7 @@ var path = require('path');
 var app = express();
 app.use(express.static(path.join(__dirname, 'public')));
 // set our application port
-app.set('port', 3000);
+app.set('port', 80);
 
 // set morgan to log info about our requests for development use.
 
